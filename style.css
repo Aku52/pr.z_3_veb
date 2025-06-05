@@ -1,0 +1,53 @@
+header{
+    background-color: #E1EDE6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h1{
+    color: #598D66;
+    font-size: 20px ;
+    text-align: center;
+}
+.logo{
+    display: flex;
+    text-align: center;
+}
+a{
+    color: #2C2D35;
+    text-decoration:none;
+    margin: 40px 40px 40px 40px;
+    text-align: center;
+    font-size: 18px;
+}
+.list_1_text{
+    float: right;
+    width: 45%;
+    position: relative;
+    top:20px
+}
+h2{
+    color: #2C2D35;
+    font-size: 40px;
+
+}
+h3{
+    color: #598D66;
+    font-size: 40px;
+}
+.text_1{
+    color: #86928B;
+    font-size:18px;
+    width: 35%;
+}
+.button_1{
+    font-size:20px;
+    color: #598D66;
+    border: 2px solid #598D66 ;
+    padding:19px 52px 19px 52px ;
+}
+.h23{
+     display: inline-block;
+     width: 40%;
+    
+}
