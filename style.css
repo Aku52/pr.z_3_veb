@@ -24,16 +24,18 @@ a{
     float: right;
     width: 45%;
     position: relative;
-    top:20px
+    top:50%;
 }
 h2{
     color: #2C2D35;
     font-size: 40px;
-
 }
-h3{
+span{
     color: #598D66;
     font-size: 40px;
+}
+.h2_span{
+    width: 40%;
 }
 .text_1{
     color: #86928B;
@@ -46,8 +48,46 @@ h3{
     border: 2px solid #598D66 ;
     padding:19px 52px 19px 52px ;
 }
-.h23{
-     display: inline-block;
-     width: 40%;
-    
-}
+
+.content {
+    padding: 20px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+  }
+  
+  #toggle {
+    display: none;
+  }
+  
+  .first {
+    display: block;
+  }
+  .second {
+    display: none;
+  }
+  .third {
+    display: none;
+  }
+  
+  #toggle:checked ~ .first {
+    display: none;
+  }
+  #toggle:checked ~ .second {
+    display: block;
+  }
+  #toggle:checked ~ .third {
+    display: none;
+  }
+  .toggle-label {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #376B44;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+  }
+  
