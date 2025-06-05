@@ -49,6 +49,7 @@ span{
     padding:19px 52px 19px 52px ;
 }
 
+
 .content {
     padding: 20px;
     margin: 10px 0;
@@ -56,7 +57,13 @@ span{
     background-color: #f9f9f9;
   }
   
-  #toggle {
+  #toggle_1 {
+    display: none;
+  }
+  #toggle_2 {
+    display: none;
+  }
+  #toggle_3 {
     display: none;
   }
   
@@ -70,16 +77,16 @@ span{
     display: none;
   }
   
-  #toggle:checked ~ .first {
+  #toggle_1:checked ~ .first {
     display: none;
   }
-  #toggle:checked ~ .second {
+  #toggle_2:checked ~ .second {
     display: block;
   }
-  #toggle:checked ~ .third {
-    display: none;
+  #toggle_3:checked ~ .third {
+    display: block;
   }
-  .toggle-label {
+  .toggle-label_1 {
     display: inline-block;
     padding: 10px 15px;
     background-color: #376B44;
@@ -90,4 +97,29 @@ span{
     font-size: 16px;
     text-align: center;
   }
-  
+  .toggle-label_2 {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #376B44;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+  }
+  .toggle-label_3 {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #376B44;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+  }
+ 
+.reprodukcui{
+  display: flex;
+}
