@@ -48,6 +48,30 @@ body {
   .work-example{
     width: 310px ;
   }
+  .new-collection-title h2{
+    width: 420px;
+    font-size: var(--font-size-eighteen);
+  }
+  .new-collection-text{
+    width: 540px;
+  }
+  .new-collection-button{
+    padding: 21px 60px;
+  }
+  .team{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .team-text{
+    width: 635px;
+    margin-top: 45px;
+  }
+  .team-text p{
+    width: 635px;
+    margin: 20px 0 ;
+  }
+  
 }
 
 .header {
@@ -73,6 +97,7 @@ body {
   display: flex;
   align-items: center;
 }
+
 .about {
   display: flex;
   justify-content: space-between;
@@ -97,6 +122,7 @@ body {
   background: none;
   font-weight: var(--font-weight-medium);
 }
+
 .works-up{
   display: flex;
   justify-content: space-between;
@@ -130,6 +156,7 @@ body {
 .work-example{
   background-color: var(--light-green-color);
   padding: 20px 20px 30px 20px;
+  margin-bottom: 30px;
 }
 .work-artist{
   font-weight: var(--font-weight-medium);
@@ -166,6 +193,12 @@ body {
   padding: 21px 100px;
   background-color: none;
   margin-top: 20px;
+}
+.work-down{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 40px;
 }
 
 /*
@@ -248,3 +281,46 @@ body {
 .reprodukcui{
   display: flex;
 }*/
+
+
+.new-collection{
+  background-image: url(assets/fon_men.svg);
+  padding: 70px 0 ;
+  color: var(--white-color);
+  background-repeat: repeat-x;
+}
+.new-collection-title{
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px ;
+}
+.new-collection-title h2 { 
+  font-weight: var(--font-weight-medium);
+  margin-left: 20px;
+}
+.new-collection-text{
+  font-size: var(--font-size-eighteen);
+  font-weight: var(--font-weight-medium);
+  margin-bottom: 25px;
+  line-height: 150%;
+}  
+.new-collection-button{
+  margin-top: 30px;
+  background-color: #EEDB6D;
+  border: none;
+  font-size: var(--font-size-twenty);
+  font-weight: var(--font-weight-medium);
+}
+
+.team{
+  margin: 70px auto;
+}
+.team-text p{
+  font-size:var(--font-size-eighteen) ;
+  font-weight: var(--font-weight-medium);
+  color: var(--black-color);
+  line-height: 150%;
+}
+.team-image img:nth-child(2){
+  margin: 0 30px;
+}
