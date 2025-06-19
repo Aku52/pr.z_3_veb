@@ -376,3 +376,69 @@ footer{
   font-size: 12px;
   margin-bottom: 6px;
 }
+
+@media(min-width:768px) and (max-width:1439px){
+  .container{
+    max-width: 690px;
+  }
+  .gl_ptica_img{
+    width: 330px;
+    height: 360px;
+  }
+  .about-title{
+    width:330px ;
+    height: 80px;
+    font-size: 40px;
+  }
+  .about-text{
+    width:330px ;
+    height: 108px;
+  }
+  .about-button{
+    padding: 19px 52px;
+  }
+  .works-up-title{
+    font-size: 30px;
+  }
+  .work-img{
+    width: 290px;
+  }
+  .star_2{
+    width: 60px;
+    height: 60px;
+  }
+  h2{
+    font-size: 30px;
+    width: 370px;
+    height: 60px;
+  }
+  .new-collection{
+    background-image: url(assets/fon_men_planshet.svg);
+    width: 766px;
+    height: 502px;
+  }
+  .new-collection-button{
+    padding: 19px 37px;
+  }
+  .new-collection{
+    padding:  0 ;
+ }
+ .ryka_ramka{
+  width: 510px;
+  height: 504px;
+ }
+ .works-up-title{
+  padding-top: 40px ;
+  font-size: 30px;
+ }
+ .team-text p{
+  padding-bottom: 30px;
+ }
+ .contacts{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 30px;
+ }
+ 
+}
